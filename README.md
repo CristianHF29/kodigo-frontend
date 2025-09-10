@@ -1,12 +1,37 @@
-# React + Vite
+# Kodigo Bootcamps (Frontend con React + Firebase)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada en **React** que consume datos desde **Firebase** (Authentication + Firestore).  
+Fue creado como parte de una práctica para implementar autenticación, manejo de roles y CRUD básico.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades principales
 
-## Expanding the ESLint configuration
+- **Página de inicio (Home):** muestra los bootcamps disponibles de manera pública.  
+- **Autenticación:** los usuarios pueden:
+  - Crear una nueva cuenta.
+  - Iniciar sesión con email y contraseña.
+- **Dashboard:** cada usuario puede acceder a los bootcamps activos.  
+- **Administrador:** solo el usuario administrador puede:
+  - Crear bootcamps.
+  - Editar y eliminar bootcamps existentes.
+  - Activar o desactivar bootcamps para que se muestren (o no) al público.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 👤 Usuario administrador
+
+- **Correo admin:** `cristart.hernandezf@gmail.com`  
+- **Contraseña:** `123456`  
+- Este usuario tiene permisos exclusivos para agregar, editar y borrar bootcamps.  
+- Otros usuarios registrados solo pueden ver los cursos activos.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- [React](https://reactjs.org/) con Vite  
+- [Firebase Authentication](https://firebase.google.com/)  
+- [Cloud Firestore](https://firebase.google.com/docs/firestore)  
+- [React Router](https://reactrouter.com/)  
+- [React Hook Form](https://react-hook-form.com/)
